@@ -1,5 +1,5 @@
 {
-  "name": "vigour-base-is-removed",
+  "name": "brisky-is-removed",
   "version": "1.0.0",
   "description": "Checks if a property has been removed from a vigour-base object",
   "main": "lib/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vigour-io/base-is-removed.git"
+    "url": "git+https://github.com/vigour-io/brisky-is-removed.git"
   },
   "keywords": [
     "getOwnPropertyDescriptors",
@@ -21,9 +21,9 @@
   "author": "Vigour.io <dev@vigour.io>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vigour-io/base-is-removed/issues"
+    "url": "https://github.com/vigour-io/brisky-is-removed/issues"
   },
-  "homepage": "https://github.com/vigour-io/base-is-removed#readme",
+  "homepage": "https://github.com/vigour-io/brisky-is-removed#readme",
   "contributors": [
     "Jim De Beer <jim@vigour.io>",
     "Shawn Inder <shawn@vigour.io>"
