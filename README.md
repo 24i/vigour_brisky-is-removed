@@ -1,7 +1,5 @@
 # brisky-is-removed
-Checks if a property has been removed from a vigour-base object
-- **base** (*Base*) - the property to check
-- **returns** (*boolean*) removed - `true` if *base* property has been removed, `false` otherwise
+Checks if a property has been removed from a brisky-base object
 
 [![Build Status](https://travis-ci.org/vigour-io/brisky-is-removed.svg?branch=master)](https://travis-ci.org/vigour-io/brisky-is-removed)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
