@@ -4,7 +4,7 @@
   "description": "Checks if a property has been removed from a vigour-base object",
   "main": "lib/index.js",
   "scripts": {
-    "test": "NODE_ENV=test node test | tap-difflet && vtest test | tap-difflet && standard",
+    "test": "node test | tap-difflet && standard",
     "cover": "istanbul cover --report none --print detail test/index.js",
     "view-cover": "istanbul report html && open ./coverage/index.html",
     "watch": "nodemon test | tap-difflet",
@@ -15,8 +15,7 @@
     "url": "git+https://github.com/vigour-io/brisky-is-removed.git"
   },
   "keywords": [
-    "getOwnPropertyDescriptors",
-    "prototype"
+    "brisky-base"
   ],
   "author": "Vigour.io <dev@vigour.io>",
   "license": "ISC",
@@ -33,7 +32,6 @@
   },
   "devDependencies": {
     "ducktape": "^1.0.1",
-    "budo": "^9.0.0",
     "coveralls": "^2.11.12",
     "istanbul": "^0.4.5",
     "nodemon": "^1.10.2",
@@ -41,7 +39,7 @@
     "standard": "^8.0.0",
     "tap-difflet": "0.6.0",
     "tape": "^4.6.0",
-    "vigour-base": "^3.6.0"
+    "brisky-base": "^4.0.0"
   },
   "browserify": {
     "transform": [
