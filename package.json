@@ -1,6 +1,6 @@
 {
   "name": "brisky-is-removed",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Checks if a property has been removed from a vigour-base object",
   "main": "lib/index.js",
   "scripts": {
